@@ -42,7 +42,7 @@ resource "google_cloud_run_service" "run_service" {
   template {
     spec {
       containers {
-        image = "gcr.io/google-samples/hello-app:1.0"
+        image = "eu.gcr.io/kloktig-webpage/api:latest"
       }
     }
   }
